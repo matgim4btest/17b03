@@ -8,5 +8,7 @@ public class Program {
         db.printKomitent();
         Scanner sc= new Scanner(System.in);
         int br=sc.nextInt();
+        int br1=sc.nextInt();
+        db.Uplate(br, br1);
     }
 }

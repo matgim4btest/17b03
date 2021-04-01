@@ -51,7 +51,7 @@ public class DB {
      coni.commit();//komitujemo sve prethodno apisane stejtmente kao jednu celinu 
     coni.setAutoCommit(true);
     }
-    
+    System.out.println(suma);
    coni.close();
    st1.close();
    
